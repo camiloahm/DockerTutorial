@@ -50,7 +50,7 @@ As you can see, we´re going to use and official image for netcore and we`re goi
 docker build -t mynetcoreapp .
 docker run -d -p 8181:5000 mynetcoreapp
 
-Now we can test on http://localhost:8181 or http://<docker-machine-ip>:8181
+Now we can test on http://localhost:8181 or http:// <docker-machine-ip> :8181
 
  
 
