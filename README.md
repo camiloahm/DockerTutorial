@@ -1,5 +1,8 @@
 # Docker Common Commands
 
+## Docker Installation
+If you have Windows 10 or OS X and your machine`s hypervisor is activated, you can use a the native version of docker, otherwise you must use Docker Toolbox which has a Virtual Machine with a linux distribution where docker is already installed  
+
 obtaining a list of currently running containers
 ```sh
 $ docker ps
