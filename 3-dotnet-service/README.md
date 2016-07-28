@@ -1,6 +1,6 @@
 # Building .net service and running it inside a container
 
-We are going to use .NetCore which is supported on Linux. There are 2 ways to create a core project easily 
+We are going to use .NetCore which is supported on Linux. There are 2 ways to create a core project easily, with Yeoman or with Visual Studio. There is an example project generated with Yeoman in this folder "MyService".
 
 ## Using Yeoman
 
