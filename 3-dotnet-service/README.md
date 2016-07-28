@@ -28,7 +28,7 @@ you can check the documentation for [Visual Studio](https://docs.asp.net/en/late
 
 If you used Yeoman to create the project, you can find inside the project`s folder a Dockerfile ready to be used like this one 
 
-´´´sh
+```sh
 FROM microsoft/dotnet:latest
 
 COPY . /app
@@ -43,7 +43,8 @@ EXPOSE 5000/tcp
 
 ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0.0:5000"]
 
-´´´
+```
+
 As you can see, we´re going to use and official image for netcore and we`re going to expose kestrel on port 5000. Now what we have to do is to build the image and Run the container.
 
 docker build -t mynetcoreapp .
