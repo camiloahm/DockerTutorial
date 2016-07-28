@@ -48,6 +48,15 @@ $ docker pull nginx
 $ docker rmi <image name>
 ```
 
+### Go to interactive mode in a container
+```sh
+$ docker attach <idcontainer>
+``` 
+
+### SSH connection to the container
+```sh
+$ docker exec -i -t <idcontainer> /bin/bash
+```
 
 
 

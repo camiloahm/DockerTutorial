@@ -28,7 +28,7 @@ For native docker installs, you can access the HTTP server on localhost:3000. If
 ...
 $ docker-machine ls
 $ docker-machine <machine-name> env
-
+...
 
 
 
