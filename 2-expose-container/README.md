@@ -25,10 +25,10 @@ The `-p 3000:80` flag maps the port 3000 on the host machine to the port 80 insi
 
 For native docker installs, you can access the HTTP server on localhost:3000. If you are using VirtualBox(docker toolbox)  for running it, you should check the IP given by `docker-machine`. You can check the ip running:
 
-...
+```sh
 $ docker-machine ls
 $ docker-machine <machine-name> env
-...
+```
 
 
 
