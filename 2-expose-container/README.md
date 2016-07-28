@@ -1,7 +1,7 @@
 #Expose cointainer and build image
 
 ##Building an image
-We are going to use a super small Linux distribution called Alpine Linux with an Nginx HTTP server.Please check file coall Dockerfile that is inside this folder
+We are going to use a super small Linux distribution called Alpine Linux with an Nginx HTTP server.Please check file  "Dockerfile" that is inside this folder
 
 The `FROM` directive references an existing image in the registry.
 The `COPY` Directive copies the contents of the `./site` folder to `/usr/share/nginx/html` inside of the container.
@@ -23,11 +23,11 @@ $ docker run -d -p 3000:80 quick-nginx
 The `-d` flag tells docker to run a "daemonized" container "Run in background".
 The `-p 3000:80` flag maps the port 3000 on the host machine to the port 80 inside the container.
 
-For native docker installs, you can access the HTTP server on localhost:3000. If you are using VirtualBox(docker toolbox)  for running it, you should check the IP given by `docker-machine`. You can check the ip running:
+For native docker installs, you can access the HTTP server on localhost:3000. If you are using VirtualBox(docker toolbox), you should check the IP given by `docker-machine`. You can check the ip running:
 
 ```sh
 $ docker-machine ls
-$ docker-machine <machine-name> env
+$ docker-machine env <docker-machine>
 ```
 
 
