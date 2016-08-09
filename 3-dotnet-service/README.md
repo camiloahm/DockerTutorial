@@ -47,9 +47,12 @@ ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0.0:5000"]
 
 As you can see, we´re going to use and official image for netcore and we`re going to expose kestrel on port 5000. Now what we have to do is to build the image and Run the container.
 
+```sh 
 docker build -t mynetcoreapp .
+```
+```sh
 docker run -d -p 8181:5000 mynetcoreapp
-
+```
 Now we can test on http://localhost:8181 or http://docker-machine-ip:8181
 
  
