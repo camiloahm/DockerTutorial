@@ -47,7 +47,9 @@ $ docker build -t aspservice .
 $ docker run -it -p 5000:5000 aspservice
 ```
 ## Azure
-docker-machine create -d azure --azure-ssh-user ops --azure-subscription-id <SubscriptionId> --azure-open-port 80 machine
+```sh
+$ docker-machine create -d azure --azure-ssh-user ops --azure-subscription-id <SubscriptionId> --azure-open-port 80 machine
+```
 
 ## Amazon EC2 driver
 To create an EC2 instance in AWS running Docker that we will later command from our local computer, we need the following variables set up : 
@@ -59,8 +61,10 @@ export AWS_SECRET_ACCESS_KEY=<your aws iam key>
 # According to when your AWS account was created, you may also need the following
 export AWS_VPC_ID=vpc-xxxxxxxxx
 export AWS_SUBNET_ID=subnet-xxxxxxxxx
-
 ```
+
+```sh
 $ docker-machine create -d amazonec2 aws01
+```
 
 Now you can deploy containers inside an Amazon´s virtual machine
