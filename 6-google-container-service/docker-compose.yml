@@ -5,4 +5,5 @@ echo:
   volumes:
     - ./:/code
   environment:
-    APPENV: something
+    PORT: 8080
+    APPENV: devel

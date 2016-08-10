@@ -1,3 +1,3 @@
 runtime: custom
 vm: true
-service: testapp
+service: nginxapp

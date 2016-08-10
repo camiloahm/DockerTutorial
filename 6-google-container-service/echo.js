@@ -1,8 +1,9 @@
 var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
-app.use(bodyParser.json())
+var PORT = parseInt(process.env.PORT);
 
+app.use(bodyParser.json())
 
 //Triggered when the application is killed by a [CRTL+C] from keyboard
 process.on('SIGINT', function() {
@@ -23,7 +24,7 @@ app.use('/', function (req, res) {
     v.appenv = process.env.APPENV;
   }
   res.json(v);
-}).listen(8080, function() {
-  console.log("Listening on port 8080");
+}).listen(PORT, function() {
+  console.log("Listening on port %s", PORT);
 });
 
