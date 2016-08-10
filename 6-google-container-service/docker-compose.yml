@@ -1,9 +1,0 @@
-echo:
-  build: .
-  ports:
-    - 3000:8080
-  volumes:
-    - ./:/code
-  environment:
-    PORT: 8080
-    APPENV: devel

@@ -1,7 +1,6 @@
-# Using Google Compute engine instances with container-vm
-This example illustrates how to run our echo server from previous examples in [Google Cloud](http://console.cloud.google.com)
+# Using Google Container Services
 
-We already tried Google Flexible environments in the previous tutorial, which is a convenient way of running containerized applications, but what happens when we need to run applications that could benefit from container composition ? We can't really do that in flexible environments without deploying separate applications. 
+We already tried Google Flexible environments in the previous tutorial. Now we´re going to use Kubernetes Google´s Container administrator.
 
 This example illustrates how to run such a scenario in the Google Cloud, as always, with just a few updates to our working app. 
 
