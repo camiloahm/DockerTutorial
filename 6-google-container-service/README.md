@@ -1,6 +1,6 @@
 # Using Google Container Services
 
-We already tried Google Flexible environments in the previous tutorial. Now we´re going to use Kubernetes Google´s Container administrator.
+We already tried Google Flexible environments in the previous tutorial. Now weÂ´re going to use Kubernetes; GoogleÂ´s Container administrator.
 
 This example illustrates how to run such a scenario in the Google Cloud, as always, with just a few updates to our working app. 
 
