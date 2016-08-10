@@ -1,5 +1,5 @@
 # Using Google App Engine Environments to run instances
-This example illustrates an echo server in [Google Cloud Flexible environments](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/quickstart).
+This examples are from google [Google Cloud Flexible environments](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/quickstart).
 
 Google app engine environments provides a containers PAAS, taking care of many of the low level details such as:
 
@@ -23,7 +23,7 @@ The file states that this is a custom runtime (built from our `Dockerfile`), tha
 
 Additionally you would need to follow the `gcloud` tools [gcloud install process](https://cloud.google.com/sdk/downloads) for your OS, to deploy from your command line.
 
-Let´s deploy our app 
+LetÂ´s deploy our app 
 ```
 $ gcloud app deploy
 ```
