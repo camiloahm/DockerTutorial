@@ -1,6 +1,6 @@
 #Expose cointainer in cloud using docker-machine
 
-`docker-machine` is a docker tool and is one of the docker mechanism to deploy containers to cloud providers
+`docker-machine` is a docker tool (docker client) and is one of the docker mechanism to deploy containers to cloud providers
 
 `docker-machine` uses "drivers" to deploy virtual instances in popular cloud providers. Every driver depends on a few configurations to work.
 
