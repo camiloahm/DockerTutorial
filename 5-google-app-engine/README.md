@@ -11,7 +11,7 @@ Google app engine environments provides a containers PAAS, taking care of many o
 
 Flexible environments will deploy google cloud containers, taking care of all these things for us.  To get started we only require two basic adjustments to our application: 
 
-  - Flexible environment expects our app to serve in port `8080` by default, so we need to adjust that in `echo.js`
+  - Flexible environment expects our app to serve in port `8080` by default
   - We need to create an `app.yaml` with a few basic parameters. In this case app.yaml is inside MyService folder
 
 ```yaml
