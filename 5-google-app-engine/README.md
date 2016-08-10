@@ -1,5 +1,5 @@
 # Using Google App Engine Environments to run instances
-This examples are from google [Google Cloud Flexible environments](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/quickstart).
+This examples are from [Google Cloud Flexible environments](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/quickstart).
 
 Google app engine environments provides a containers PAAS, taking care of many of the low level details such as:
 
@@ -17,7 +17,7 @@ Flexible environments will deploy google cloud containers, taking care of all th
 ```yaml
 runtime: custom
 vm: true
-service: myapp 
+service: nginx 
 ```
 The file states that this is a custom runtime (built from our `Dockerfile`), that will run on a virtual machine, and the service is called `myapp`.
 
